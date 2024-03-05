@@ -1,3 +1,2 @@
-transformers
-torch
-datasets
+-r ./indicinstruct/requirements.txt
+matplotlib
