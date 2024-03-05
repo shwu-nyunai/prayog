@@ -1,0 +1,3 @@
+[submodule "indicinstruct"]
+	path = indicinstruct
+	url = https://github.com/shwu-nyunai/prayog-IndicInstruct.git
