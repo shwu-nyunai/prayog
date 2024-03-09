@@ -39,5 +39,21 @@ Tue Mar  5 00:24:03 2024
 
 After ensuring correct driver and python versions, from inside your environment do,
 ```shell
-pip install -r requirements.txt --force-reinstall
+pip install -r requirements.txt
 ````
+
+Once the installation is complete, unzip the mmlu dataset
+```shell
+cd indicinstruct/data/eval
+unzip mmlu.zip
+unzip mmlu_hi_translated.zip
+```
+
+from within the same directory, bring the data to the correct directory, do
+```shell
+mv data/jaygala/open-instruct/data/eval/* .
+rm -r data
+ls
+# should print 
+# mmlu  mmlu.zip  mmlu_hi_translated  mmlu_hi_translated.zip
+```

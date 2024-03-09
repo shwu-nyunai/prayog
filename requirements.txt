@@ -1,2 +1,4 @@
--r ./indicinstruct/requirements.txt
 matplotlib
+packaging
+torch
+-r ./indicinstruct/requirements.txt

@@ -4,3 +4,5 @@ custom_data/datasets/*
 custom_data/models/*
 nyun_services/
 results/
+logs/
+*cache/
